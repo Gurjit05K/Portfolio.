@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurjit Kaur - Frontend Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Theme Toggle Button -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+    </button>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <a class="logo" href="#home">Portfo<span>lio.</span></a>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <div class="navbar-right" id="navbar-menu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--Home Page-->
+    <section class="home-container" id="home">
+        <div class="content">
+            <h4>Hi, I'm</h4>
+            <h1>Gurjit Kaur</h1>
+            <h3 class="typing-text">Frontend Developer</h3>
+            <p>An aspiring Frontend Developer with a passion for Web Development. A self-paced learner with interest in various roles like Software Development. Currently pursuing a certification course on Agentic Systems and Designs from IIT Roorkee.</p>
+        </div>
+        <div class="buttons">
+            <a href="RESUME_GURJIT KAUR.pdf" target="_blank" class="resume-btn">
+                <i class="fas fa-file-alt"></i> View Resume
+            </a>
+            <a href="#contact" class="btn">
+                <i class="fas fa-envelope"></i> Contact me
+            </a>
+        </div>
+    </section>
+
+    <!--Skills Page-->
+    <section class="skills-container" id="skills">
+        <h1 class="section-title">SKILLS</h1>
+        <div class="skills">
+            <div class="skill-card" data-skill="html">
+                <div class="skill-icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <h3>HTML5</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 95%"></div>
+                </div>
+                <p>Semantic markup, Accessibility, SEO</p>
+            </div>
+            <div class="skill-card" data-skill="css">
+                <div class="skill-icon">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <h3>CSS3</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%"></div>
+                </div>
+                <p>Flexbox, Grid, Animations, Responsive Design</p>
+            </div>
+            <div class="skill-card" data-skill="js">
+                <div class="skill-icon">
+                    <i class="fab fa-js-square"></i>
+                </div>
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 85%"></div>
+                </div>
+                <p>ES6+, DOM Manipulation, APIs</p>
+            </div>
+            <div class="skill-card" data-skill="react">
+                <div class="skill-icon">
+                    <i class="fab fa-react"></i>
+                </div>
+                <h3>ReactJS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%"></div>
+                </div>
+                <p>Components, Hooks, State Management</p>
+            </div>
+            <div class="skill-card" data-skill="python">
+                <div class="skill-icon">
+                    <i class="fab fa-python"></i>
+                </div>
+                <h3>Python</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 75%"></div>
+                </div>
+                <p>Basic Programming, Scripting</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Projects Page-->
+    <section class="project-container" id="projects">
+        <h1 class="section-title">PROJECTS</h1>
+        <div class="projects">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="E-commerce Website">
+                </div>
+                <div class="project-content">
+                    <h3>Daily Tracker</h3>
+                    <p>Built a daily tracking web application to monitor habits, tasks, or personal goals with features like adding daily entries, marking completion, viewing progress over time, and persistent storage. Used HTML5, CSS3, and pure JavaScript for interactivity, DOM updates, and local storage to save user data across sessions. Focused on clean UI and simple user flow for consistent daily use.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>LocalStorage</span>
+                    </div>
+                    <a href="https://daily-tracker-one.vercel.app/" target="_blank" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Weather App">
+                </div>
+                <div class="project-content">
+                    <h3>Admin Panel Management</h3>
+                    <p>Built a modern admin dashboard UI replicating Intercom's interface, complete with collapsible sidebar, conversation list, chat window simulation, and an AI Copilot section. Used React, Tailwind CSS for styling, Framer Motion for smooth animations, and dummy data to simulate real-time conversations and AI features.</p>
+                    <div class="project-tech">
+                        <span>ReactJS</span>
+                        <span>Tailwind CSS</span>
+                        <span>Framer Motion</span>
+                    </div>
+                    <a href="https://admin-panel-management.vercel.app/" target="_blank" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Task Manager">
+                </div>
+                <div class="project-content">
+                    <h3>Recipe Bot</h3>
+                    <p>Created a chatbot assistant that suggests personalized recipes based on user input like BMI, food preference, and available ingredients. Used Google Dialogflow for NLP, Flask for backend logic and routing, and Spoonacular API for fetching real-time recipe data with filters. Features include BMI calculator with category-based meal suggestions and support for dietary needs.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Python</span>
+                        <span>API</span>
+                        <span>Flask</span>
+                    </div>
+                    <a href="https://a-recipe-bot.vercel.app/" target="_blank" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Page-->
+    <section class="contact-container" id="contact">
+        <div class="contact-form">
+            <h1 class="section-title">GET IN TOUCH</h1>
+            <form id="contactForm" action="" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    <span class="error-message" id="name-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <span class="error-message" id="email-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+                    <span class="error-message" id="message-error"></span>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    <span id="submit-text">Send Message</span>
+                    <div class="spinner hidden" id="submit-spinner"></div>
+                </button>
+                <p id="form-message" class="form-message"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Gurjit Kaur</h3>
+                <p>Frontend Developer passionate about creating beautiful, functional web experiences.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#home">Home</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="social-icons">
+                <h4>Connect with me</h4>
+                <div class="social-links">
+                    <a href="https://github.com/Gurjit05K" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gurjitkaur05/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:gurziet@email.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year">2026</span> Gurjit Kaur. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
