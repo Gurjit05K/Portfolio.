@@ -6,7 +6,7 @@ A modern, responsive portfolio website built with HTML, CSS, and JavaScript. Fea
 
 ##  Live Demo
 
-[View Live Portfolio](https://your-portfolio-url.vercel.app) 
+[View Live Portfolio](https://gk-portfolio-chi.vercel.app/) 
 
 ##  Features
 
